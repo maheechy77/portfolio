@@ -1,4 +1,4 @@
-import type { GetStaticProps, NextPage } from "next";
+import type { GetStaticProps } from "next";
 import { motion } from "framer-motion";
 
 import Head from "next/head";
