@@ -1,5 +1,4 @@
 import type { GetStaticProps } from "next";
-import { motion } from "framer-motion";
 
 import Head from "next/head";
 import About from "../components/About";
