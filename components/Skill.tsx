@@ -25,11 +25,11 @@ const Skill = ({ directionLeft, skill }: Props) => {
         }}
         src={urlFor(skill.image).url()}
         alt="logo"
-        className="rounded-full border border-gray-500 object-cover w-28 h-28 filter group-hover:grayscale transition duration-300 ease-in-out p-4"
+        className="rounded-full border border-gray-500 object-cover w-20 h-20 md:w-28 md:h-28 filter group-hover:grayscale transition duration-300 ease-in-out p-1 md-p-4"
       />
-      <div className="absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-28 w-28 rounded-full z-10">
+      <div className="absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white w-20 h-20 md:w-28 md:h-28 rounded-full z-10">
         <div className="flex items-center justify-center h-full">
-          <p className="text-lg text-black font-bold opacity-100">
+          <p className="text-sm md:text-lg text-black font-medium  md:font-bold opacity-100">
             {skill.progress}
           </p>
         </div>
