@@ -25,7 +25,7 @@ const About = ({ pageInfo }: Props) => {
       </h3>
       <h4 className="text-4xl font-semibold">
         Here is a{" "}
-        <span className="underline decoration-[#f7ab0A]/50">Little</span>{" "}
+        <span className="underline decoration-[#2146C7]/50">Little</span>{" "}
         Background
       </h4>
       <p className="text-base max-w-2xl text-justify">

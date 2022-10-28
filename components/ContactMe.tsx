@@ -23,23 +23,23 @@ const ContactMe = (props: Props) => {
       </h3>
 
       <div className="flex flex-col space-y-10">
-        <h4 className="underline decoration-[#f7ab0A]/50 text-4xl font-semibold text-center">
+        <h4 className="underline decoration-[#2146C7]/50 text-4xl font-semibold text-center">
           Let us Talk
         </h4>
 
         <div className="space-y-8">
           <div className="flex items-center space-x-5 justify-center">
-            <PhoneIcon className="h-7 w-7 animate-pulse text-[#f7ab0A]" />
+            <PhoneIcon className="h-7 w-7 animate-pulse text-[#2146C7]" />
             <p className="text-2xl">+019283745</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
-            <EnvelopeIcon className="h-7 w-7 animate-pulse text-[#f7ab0A]" />
+            <EnvelopeIcon className="h-7 w-7 animate-pulse text-[#2146C7]" />
             <p className="text-2xl">maheechy962gmail.com</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
-            <MapPinIcon className="h-7 w-7 animate-pulse text-[#f7ab0A]" />
+            <MapPinIcon className="h-7 w-7 animate-pulse text-[#2146C7]" />
             <p className="text-2xl">
               Thikana Tower, Nayasarak, Sylhet, Bangladesh{" "}
             </p>
@@ -79,7 +79,7 @@ const ContactMe = (props: Props) => {
           ></textarea>
           <button
             type="submit"
-            className="bg-[#f7ab0A] py-5 px-10 rounded-md font-bold text-lg"
+            className="bg-[#2146C7] py-5 px-10 rounded-md font-bold text-lg"
           >
             Submit
           </button>
