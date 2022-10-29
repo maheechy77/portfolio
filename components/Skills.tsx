@@ -10,7 +10,7 @@ type Props = {
 const Skills = ({ skills }: Props) => {
   return (
     <motion.div className="h-screen relative flex flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center">
-      <h3 className="absolute top-24 tracking-[20px] uppercase text-grey-500 text-2xl">
+      <h3 className="absolute top-20 md:top-24 tracking-[20px] uppercase text-grey-500 text-xl md:text-2xl">
         Skills
       </h3>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-5">

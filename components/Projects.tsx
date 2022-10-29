@@ -21,7 +21,7 @@ const Projects = ({ projects }: Props) => {
       }}
       className="h-screen relative flex overflow-hidden flex-col md:flex-row text-left max-w-full z-0 mx-auto justify-evenly items-center"
     >
-      <h3 className="absolute top-24 tracking-[20px] uppercase text-grey-500 text-2xl">
+      <h3 className="absolute top-20 md:top-24 tracking-[20px] uppercase text-grey-500 text-xl md:text-2xl">
         Projects
       </h3>
       <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thin scrollbar-thumb-[#2146C7]">
@@ -46,11 +46,11 @@ const Projects = ({ projects }: Props) => {
                 once: true,
               }}
               src={urlFor(project.image).url()}
-              className="h-52 w-52 bg-cover bg-center"
+              className="h-40 w-40md:h-52 md:w-52 bg-cover bg-center"
               alt=""
             />
             <div className="space-y-10 px-0 md:px-10 max-w-6xl">
-              <h4 className="text-4xl font-semibold text-center">
+              <h4 className="text-2xl md:text-4xl font-semibold text-center">
                 <span className="underline decoration-[#2146C7]/90">
                   {project.title}
                 </span>{" "}
@@ -65,7 +65,7 @@ const Projects = ({ projects }: Props) => {
                   />
                 ))}
               </div>
-              <p className="text-lg text-center md:text-left">
+              <p className="text-base md:text-lg text-center md:text-left">
                 {project.summery}
               </p>
             </div>

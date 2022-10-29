@@ -20,7 +20,7 @@ const About = ({ pageInfo }: Props) => {
       }}
       className="h-screen relative flex flex-col text-center md:text-left max-w-7xl px-10 justify-center gap-6 mx-auto items-center"
     >
-      <h3 className="absolute top-24 tracking-[20px] uppercase text-grey-500 text-2xl">
+      <h3 className="absolute top-20 md:top-24 tracking-[20px] uppercase text-grey-500 text-xl md:text-2xl">
         About
       </h3>
       <h4 className="text-4xl font-semibold">
