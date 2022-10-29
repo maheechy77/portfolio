@@ -72,7 +72,10 @@ const Projects = ({ projects }: Props) => {
           </div>
         ))}
       </div>
-      <div className="w-full absolute top-[30%] bg-[#2146C7]/10 left-0 h-[500px] -skew-y-12" />
+      {/* <div className="w-full absolute top-[30%] bg-[#2146C7]/10 left-0 h-[500px] -skew-y-12" /> */}
+
+      <div className="w-[500px] absolute top-[45%] -left-[10%] border-[100px] rounded-full border-[#2146C7]/10 h-[500px]" />
+      <div className="hidden md:block w-[500px] absolute top-[5%] left-[85%] border-[100px] rounded-full border-[#2146C7]/10 h-[500px]" />
     </motion.div>
   );
 };
